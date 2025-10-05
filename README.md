@@ -1,16 +1,84 @@
-# React + Vite
+Tic Tac Toe (vs AI)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Tic Tac Toe game built with React.js, where a player can play against an AI opponent using the Minimax algorithm. The game is designed to be mobile-friendly and visually appealing.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Play Tic Tac Toe against an AI opponent.
 
-## React Compiler
+AI uses the Minimax algorithm for optimal moves.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Responsive design for desktop and mobile devices.
 
-## Expanding the ESLint configuration
+Restart game functionality.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Highlight winning combinations.
+
+Modern, clean UI with hover and click effects.
+
+
+
+
+Installation
+
+Clone the repository
+
+git clone https://github.com/SathishC-dev/Tic-Tac-Toe-Game
+
+
+Navigate to the project folder
+
+cd tic-tac-toe-ai
+
+
+Install dependencies
+
+npm install
+
+
+Run the app
+
+npm run dev
+
+
+Open http://localhost:3000 in your browser.
+
+How it Works
+
+The player always plays X, and the AI plays O.
+
+When the player clicks a square, the board updates.
+
+The AI calculates the best move using the Minimax algorithm.
+
+The game automatically detects:
+
+Winner
+
+Draw
+
+Restart button resets the board.
+
+Technologies Used
+
+React.js (Functional Components & Hooks)
+
+JavaScript (ES6+)
+
+CSS3 (Responsive and modern UI)
+
+Folder Structure
+tic-tac-toe-ai/
+├── public/
+├── src/
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+├── package.json
+└── README.md
+
+Author
+
+Sathish C
+
+LinkedIn:www.linkedin.com/in/sathish-c-392417292
