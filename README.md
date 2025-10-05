@@ -1,4 +1,4 @@
-Tic Tac Toe (vs AI)
+**Tic Tac Toe (vs AI)**
 
 A simple and responsive Tic Tac Toe game built with React.js, where a player can play against an AI opponent using the Minimax algorithm. The game is designed to be mobile-friendly and visually appealing.
 
@@ -76,6 +76,7 @@ tic-tac-toe-ai/
 │   └── index.js
 ├── package.json
 └── README.md
+
 
 Author
 
